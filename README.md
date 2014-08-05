@@ -1,4 +1,6 @@
-##VisibleTouch.js - Mouse click visualizer written in JavaScript
+VisibleTouch.js
+====
+Mouse click visualizer written in JavaScript
 
 ##Demo
  ![Demo](images/visibletouch.gif)
