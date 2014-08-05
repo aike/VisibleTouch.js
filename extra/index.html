@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>VisibleTouchAno</title>
+
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="../visibletouch.js"></script>
+	<script src="visibletouchano.js"></script>
+	<style>
+	h1 {
+		text-align: center;
+		font-size: 50px;
+		font-weight: normal;
+		font-family: 'Lato', sans-serif;
+	}
+	.pure-button {
+		margin: 20px;
+		width: 100px;
+		color: white;
+	}
+	</style>
+</head>
+<body>
+	<h1>VisibleTouchAno</h1>
+	<div style="text-align: center;">
+		<button onclick="visibletouch.random(); console.log('click1');" class="pure-button" style="background: rgb(28, 184, 65);">Random</button>
+		<button onclick="visibletouch.rect(); console.log('click2');" class="pure-button" style="background: rgb(202, 60, 60);">Rect</button>
+		<button onclick="visibletouch.triangle(); console.log('click3');" class="pure-button" style="background: rgb(233, 117, 20);">Triangle</button>
+		<button onclick="visibletouch.circle(); console.log('click4');" class="pure-button" style="background: rgb(66, 184, 221);">Circle</button>
+		<button onclick="visibletouch.line(); console.log('click5');" class="pure-button" style="background: rgb(184, 221, 66);">Line</button>
+		<p>
+		<a href="https://github.com/aike/visibletouch.js">GitHub</a>
+		</p>
+	</div>
+</body>
+</html>
