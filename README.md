@@ -53,7 +53,7 @@ showing fancy ripple
     <script type="text/javascript" src="visibletouch.js"></script>
     <script type="text/javascript" src="extra/visibletouchano.js"></script>
 
- ![Extra](images/extra.png)
+ ![Extra](images/visibletouchano.gif)
 
 ##NOTE
 If you click mouse buttons during draw ripples, the click event DO NOT notify to html page.
